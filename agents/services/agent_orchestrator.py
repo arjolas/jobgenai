@@ -1,6 +1,6 @@
-from llm_agent import LLMEngine
-from rag_agent import RAGEngine
-from gan_agent import GANGenerator
+from .llm_agent import LLMEngine
+from .rag_agent import RAGEngine
+from .gan_agent import GANGenerator
 import os
 
 class AgentOrchestrator:
